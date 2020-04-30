@@ -9,7 +9,8 @@ and compare the results across different countries as well as the states in the 
 Dataset:
 the publicly available dataset – “2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE”. 
 source: https://github.com/CSSEGISandData/COVID-19/tree/master
-the Header image displayed on the web-tool - source: https://www.stjosephshealth.org/images/covid19-header.jpg
+
+Header image displayed on the web-tool - source: https://www.stjosephshealth.org/images/covid19-header.jpg
 
 
 dependencies:
@@ -56,14 +57,14 @@ For country dataset:
 	with color scale corresponding to the confirmed case count.
 
 For US dataset:
-13) Summary count of the COVID-19 confirmed cases, Active cases, deaths and recoveries across the US
-14) Slider to select the number of records to be displayed in the below mentioned table (step 3)
-15) Interactive table displaying confirmed cases, active cases, deaths and recoveries 
+1) Summary count of the COVID-19 confirmed cases, Active cases, deaths and recoveries across the US
+2) Slider to select the number of records to be displayed in the below mentioned table (step 3)
+3) Interactive table displaying confirmed cases, active cases, deaths and recoveries 
 	sorted in non-ascending order of confirmed cases state wise in the US.
-16) Interactive bar-graph showing confirmed cases and deaths plotted date wise.
-17) Dropdown to select confirmed cases/Active cases/Deaths for generating the piechart (step 6)
-18) Interactive pie chart for confirmed cases/Active cases/Deaths across different states in the US
-19) Interactive Scatter plot displaying confirmed cases state wise (size of each square corresponds to confirmed case count of the state)
-20) Interactive Line plot with markers displaying deaths country wise
-21) Interactive Scatter-geo plot displaying the states name, confirmed cases, Active cases, Deaths, recoveries on the mouse tool-tip
+4) Interactive bar-graph showing confirmed cases and deaths plotted date wise.
+5) Dropdown to select confirmed cases/Active cases/Deaths for generating the piechart (step 6)
+6) Interactive pie chart for confirmed cases/Active cases/Deaths across different states in the US
+7) Interactive Scatter plot displaying confirmed cases state wise (size of each square corresponds to confirmed case count of the state)
+8) Interactive Line plot with markers displaying deaths country wise
+9) Interactive Scatter-geo plot displaying the states name, confirmed cases, Active cases, Deaths, recoveries on the mouse tool-tip
 	with bubble size corresponding to the confirmed case count of the state.
