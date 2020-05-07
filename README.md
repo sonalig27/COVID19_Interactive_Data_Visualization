@@ -10,18 +10,30 @@ Dataset:
 the publicly available dataset – “2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE”. 
 source: https://github.com/CSSEGISandData/COVID-19/tree/master
 
+
+Resources Used:
 Header image displayed on the web-tool - source: https://www.stjosephshealth.org/images/covid19-header.jpg
+Used a couple of Dashboards for reference:
+https://coronavirus.1point3acres.com/en
+https://www.worldometers.info/coronavirus/country/us/
+https://indiasmile.org/covid
+The tutorials and examples on the plotly and Dash reference Documentation were really very helpful.
+Plotly Docs :https://plotly.com/python/
+Dash Docs: https://dash.plotly.com/
 
 
 dependencies:
-As we are using plotly and dash to generate the interactive data visualization graphs for our web tool. We need to install plotly, dash,
-dash-renderer, dash_html_components, dash_core_components. we can install this dependencies using following comman in our jupyter notebook:
+As we are using plotly and dash to generate the interactive data visualization graphs for our web tool.
+We need to install numpy, pandas, plotly, dash, dash-renderer, dash_html_components, dash_core_components.
+We can install this dependencies using following comman in our jupyter notebook:
 
+!pip install pandas
+!pip install numpy
 !pip install plotly
 !pip install dash
 !pip install dash-renderer
 !pip install dash_html_components
-!pip install dach_core_components
+!pip install dash_core_components
 !pip install dash_table
 
 
