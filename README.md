@@ -1,31 +1,31 @@
 # COVID19_Interactive_Data_Visualization
 Built an interactive COVID19 data visualization tool using Python plotly and Dash
 
-Problem statement:
-Built an interactive web based tool for users to interact with to
-visualise the real time data on the spread of the pandemic across the globe as well as across different states in the US
+Problem statement:<br/>
+Built an interactive web based tool for users to interact with to visualise the real time data on the spread of the pandemic across the globe as well as across different states in the US
 and compare the results across different countries as well as the states in the US and draw informative insights.
 
-Dataset:
-the publicly available dataset – “2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE”. 
+Dataset:<br/>
+The publicly available dataset – “2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE”. 
 source: https://github.com/CSSEGISandData/COVID-19/tree/master
 
 
-Resources Used:
+Resources Used:<br/>
 Header image displayed on the web-tool - source: https://www.stjosephshealth.org/images/covid19-header.jpg
-Used a couple of Dashboards for reference:
-https://coronavirus.1point3acres.com/en
-https://www.worldometers.info/coronavirus/country/us/
-https://indiasmile.org/covid
-The tutorials and examples on the plotly and Dash reference Documentation were really very helpful.
-Plotly Docs :https://plotly.com/python/
-Dash Docs: https://dash.plotly.com/
+
+Used a couple of Dashboards for reference:<br/>
+https://coronavirus.1point3acres.com/en<br/>
+https://www.worldometers.info/coronavirus/country/us/<br/>
+https://indiasmile.org/covid<br/>
+The tutorials and examples on the plotly and Dash reference Documentation were really very helpful.<br/>
+Plotly Docs :https://plotly.com/python/<br/>
+Dash Docs: https://dash.plotly.com/<br/>
 
 
-dependencies:
-As we are using plotly and dash to generate the interactive data visualization graphs for our web tool.
-We need to install numpy, pandas, plotly, dash, dash-renderer, dash_html_components, dash_core_components.
-We can install this dependencies using following comman in our jupyter notebook:
+Dependencies:<br/>
+As we are using plotly and dash to generate the interactive data visualization graphs for our web tool.<br/>
+We need to install numpy, pandas, plotly, dash, dash-renderer, dash_html_components, dash_core_components.<br/>
+We can install this dependencies using following comman in our jupyter notebook:<br/>
 
 1) !pip install pandas
 2) !pip install numpy
@@ -37,7 +37,7 @@ We can install this dependencies using following comman in our jupyter notebook:
 8) pip install dash_table
 
 
-how to run:
+how to run:<br/>
 1) after installing all the dependencies mentioned above, execute all the cells in the jupyter notebook.
 2) as the dash application runs on a web browser and it runs by default on the local server,
 on executing the last cell in the jupyter notebook the server link will be displayed, click on the link to see the output web portal.
@@ -49,10 +49,9 @@ on executing the last cell in the jupyter notebook the server link will be displ
 7) even the tables displayed will take user input and display the number of records according to user selection.
 
 
-Program working:
-It is a web-based tool built using dash framework and ploty library. On executing the program based on following steps, a web portal opens up
-and displays below details:
-For country dataset:
+Program working:<br/>
+It is a web-based tool built using dash framework and ploty library. On executing the program based on following steps, a web portal opens up and displays below details:<br/><br/>
+For country dataset:<br/>
 1) Summary count of the worldwide COVID-19 confirmed cases, Active cases, deaths and recoveries
 2) Slider to select the number of records to be displayed in the below mentioned table (step 3)
 3) Interactive table displaying confirmed cases, active cases, deaths and recoveries 
@@ -68,7 +67,7 @@ For country dataset:
 12) Interactive geo Choropleth plot displaying the country name, confirmed cases, Active cases, Deaths, recoveries on the mouse tool-tip
 	with color scale corresponding to the confirmed case count.
 
-For US dataset:
+For US dataset:<br/>
 1) Summary count of the COVID-19 confirmed cases, Active cases, deaths and recoveries across the US
 2) Slider to select the number of records to be displayed in the below mentioned table (step 3)
 3) Interactive table displaying confirmed cases, active cases, deaths and recoveries 
