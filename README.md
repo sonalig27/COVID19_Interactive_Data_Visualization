@@ -27,14 +27,14 @@ As we are using plotly and dash to generate the interactive data visualization g
 We need to install numpy, pandas, plotly, dash, dash-renderer, dash_html_components, dash_core_components.
 We can install this dependencies using following comman in our jupyter notebook:
 
-!pip install pandas
-!pip install numpy
-!pip install plotly
-!pip install dash
-!pip install dash-renderer
-!pip install dash_html_components
-!pip install dash_core_components
-!pip install dash_table
+1) !pip install pandas
+2) !pip install numpy
+3) !pip install plotly
+4) !pip install dash
+5) !pip install dash-renderer
+6) !pip install dash_html_components
+7) !pip install dash_core_components
+8) pip install dash_table
 
 
 how to run:
